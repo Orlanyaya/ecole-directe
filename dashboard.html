@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Bord - École Directe</title>
+    <link rel="stylesheet" href="styles_dashboard.css"> <!-- Utilisation du nouveau fichier CSS -->
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>École Directe</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Tableau de bord</a></li>
+                    <li><a href="#">Emploi du Temps</a></li>
+                    <li><a href="#">Devoirs</a></li>
+                    <li><a href="#">Notes</a></li>
+                    <li><a href="#">Profil</a></li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <a href="index.html">Déconnexion</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <div class="user-info">
+            <div class="profile-pic">
+                <img src="https://via.placeholder.com/100" alt="Photo Profil">
+            </div>
+            <div class="user-details">
+                <h2>Bienvenue, <strong>Jean Dupont</strong></h2>
+                <p>Classe : 1ère S</p>
+                <p>Établissement : Lycée XYZ</p>
+            </div>
+        </div>
+
+        <div class="stats-cards">
+            <div class="card">
+                <h3>Emploi du Temps</h3>
+                <p><strong>Lundi :</strong> Mathématiques, Histoire, Physique</p>
+                <p><strong>Mardi :</strong> Anglais, SVT, Sport</p>
+                <a href="#">Voir l'emploi du temps complet</a>
+            </div>
+
+            <div class="card">
+                <h3>Devoirs à rendre</h3>
+                <ul>
+                    <li><strong>Mathématiques :</strong> Exercices sur les intégrales - Date limite : 15/11</li>
+                    <li><strong>Anglais :</strong> Rédiger un essai - Date limite : 17/11</li>
+                </ul>
+                <a href="#">Voir tous les devoirs</a>
+            </div>
+
+            <div class="card">
+                <h3>Notifications</h3>
+                <ul>
+                    <li>📅 L'emploi du temps a été mis à jour !</li>
+                    <li>📚 Nouvelle note en Physique : 16/20</li>
+                    <li>📅 Un devoir a été ajouté en Histoire</li>
+                </ul>
+                <a href="#">Voir toutes les notifications</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 École Directe. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

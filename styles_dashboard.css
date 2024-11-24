@@ -1,0 +1,117 @@
+/* Général */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1176b4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1176b4;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #1176b4;
+}
+
+.logout a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
+
+.dashboard {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.user-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.user-details h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.stats-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1176b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
